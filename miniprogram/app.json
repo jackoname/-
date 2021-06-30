@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/frist/frist",
+    "pages/index/index",
+    "pages/second/second",
+    "pages/third/third",
+    "pages/re/zc",
+    "pages/findpassword/fp",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFD700",
+    "navigationBarTitleText": "飙尘小屋",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#989",
+    "backgroundColor": "#272728",
+    "backgroundTextStyle": "dark",
+    "color": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/second/second",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/third/third",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

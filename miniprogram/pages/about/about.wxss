@@ -1,0 +1,56 @@
+/* miniprogram/pages/about/about.wxss */
+page{
+  background-color: #ecf0f1;
+}
+ .container { 
+
+
+  flex-direction: column; 
+
+  box-sizing: border-box; 
+ }
+ .bigview{
+
+ }
+ .a{
+   background-color: #20bf6b;
+   height: 15%;
+   width: 350rpx;
+   text-align: center;
+
+   font-weight: bolder;
+   color: white;
+ }
+ #a1{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 28rpx;
+  background-color:white;
+ }
+ .a2{
+   margin: 20rpx;
+   background-color: white;
+ }
+ .tx{
+   width: 90rpx;
+   height: 90rpx;
+   border-radius: 100%;
+   margin: 15rpx;
+   border:0.3rpx solid black
+  }
+.div{
+  width:350rpx;
+  height: 448rpx;
+  float: left;
+  background-color: white;
+  border: 12rpx solid#ecf0f1;
+  border-radius: 32rpx;
+}
+#zz1{
+  color:red;
+  font-size: 35rpx;
+}
+#t1{
+font-size: 30rpx;
+color: rgb(55, 42, 248);
+}
