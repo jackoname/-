@@ -1,0 +1,9 @@
+<!--miniprogram/pages/erweima/erweima.wxml-->
+<view class="qr"><text id="title">二维码生成</text></view>
+<input class="ner" type="text" placeholder=" 请输入二维码的内容哦~~" bindinput="input"/> 
+<button class="bu" bindtap="sub" >提交</button>
+<view>
+  <image class="pricture" src="https://api.vvhan.com/api/qr?text={{text.sr[1]}}" bindlongtap="showBigImg" ></image> 
+  <view class="ts"> {{text.tx[0]}}</view>
+</view>
+

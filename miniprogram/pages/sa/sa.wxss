@@ -1,0 +1,195 @@
+/* miniprogram/pages/sa/sa.wxss */
+page{
+  background-color: #ecf0f1;
+}
+.title{
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* pages/homeall/frist/frist.wxss */
+page{
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+ }
+ .bu{
+   color-adjust:#243949;
+ }
+ .na{
+ 
+ 
+   background-color:#23557e;
+   color: #ffffff;
+   font-size: 30rpx;
+   font-style:initial;
+   align-items:center;
+   position: fixed;
+ 
+   top: 0rpx;
+ 
+   z-index: 2;
+ }
+ 
+ .selected{
+   width: 80rpx;
+   margin-left: 200rpx;
+   border-bottom: 3rpx solid rgb(30, 240, 11);
+   text-align: center;
+ }
+ .normal{
+   width: 80rpx;
+   margin-left: 200rpx;
+   text-align: center;
+   border-bottom:none;
+ }
+ .name{
+   margin-top: rpx;
+ }
+ .goodsdata{
+   display: flex;
+ margin-top: 60rpx;
+  background-image: linear-gradient(to right, #708090 0%, #708090 100%);
+ }
+ 
+ .wz{
+   font-size: 33rpx;
+   padding-bottom:30rpx;
+   line-height: 90rpx;
+   padding-top: 20rpx;
+   padding-left: 30rpx;
+   text-indent: -2rpx;
+   color: rgb(255, 251, 251);
+   
+ }
+ .img{
+   height: 350rpx;
+   width: 300rpx;
+   padding-top: 25rpx;
+   padding-left: 15rpx;
+   padding-right: 15rpx;
+ }
+ .divLine{
+   background: #3796a5;
+   width: 100%;
+   height: 5rpx;
+  }
+ .a2{
+ padding-left: 160rpx ;
+ line-height: 185rpx;
+ padding-top: 100rpx;
+ }
+ /*轮播图*/
+ .slide-image {
+   width: 100%;
+  }
+ /*搜索*/
+  .weui-search-bar {
+ 
+   padding: 8px 10px;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: flex;
+   padding-bottom: 60rpx;
+   padding-top: 70rpx;
+ 
+   background-color: #EFEFF4;
+   border-top: 1rpx solid #7567b8;
+   border-bottom: 1rpx solid #D7D6DC;
+ }
+ .weui-icon-search_in-box {
+   position: absolute;
+   left: 10px;
+   top: 7px;
+ }
+ .weui-search-bar__form {
+   position: relative;
+   -webkit-box-flex: 1;
+   -webkit-flex: auto;
+           flex: auto;
+   border-radius: 5px;
+   background: #FFFFFF;
+   border: 1rpx solid #E6E6EA;
+ }
+ .weui-search-bar__box {
+   position: relative;
+   padding-left: 30px;
+   padding-right: 30px;
+   width: 100%;
+   box-sizing: border-box;
+   z-index: 1;
+ }
+ .weui-search-bar__input {
+   height: 28px;
+   line-height: 28px;
+   font-size: 14px;
+ }
+ .weui-search-bar__cancel-btn {
+   margin-left: 10px;
+   line-height: 28px;
+   color: #4dee03;
+   white-space: nowrap;
+ }
+ 
+  .select_box{
+   background: rgb(198, 196, 221);
+   width: 80%;
+   margin: 30rpx auto;
+   position: relative;
+  }
+  .select{
+   box-sizing: border-box;
+   width: 100%;
+   height: 70rpx;
+   border:1px solid #8f1f1f;
+   border-radius: 8rpx;
+   display: flex;
+   align-items: center;
+   padding: 0 20rpx;
+  }
+  .select_text{
+   font-size: 30rpx;
+   flex: 1;
+  }
+  .select_img{
+   width: 40rpx;
+   height: 40rpx;
+   display: block;
+   transition:transform 0.3s;
+  }
+  .select_img_rotate{
+   transform:rotate(180deg); 
+  }
+  .option_box{
+   position: absolute;
+   top: 70rpx;
+   width: 100%;
+   border:1px solid #efefef;
+   box-sizing: border-box;
+   height: 0;
+   overflow-y: auto;
+   border-top: 0;
+   background: rgb(183, 178, 226);
+   transition: height 0.3s;
+  }
+  .option{
+   display: block;
+   line-height: 40rpx;
+   font-size: 30rpx;
+   border-bottom: 1px solid #efefef;
+   padding: 10rpx;
+  }
+  .choi{
+    color: white;
+    text-align: center;
+    margin-top: 35%;
+  }
+.a1{
+  border: 1rpx solid black;
+  margin-left: 5%;
+  width: 90%;
+  height: 90rpx;
+  background-color:white;
+color: black;
+}
+ 
+ 
+ 

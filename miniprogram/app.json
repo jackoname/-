@@ -1,32 +1,55 @@
 {
   "pages": [
-    "pages/frist/frist",
-    "pages/index/index",
-    "pages/second/second",
-    "pages/third/third",
-    "pages/re/zc",
-    "pages/findpassword/fp",
-    "pages/about/about"
+    "pages/home/home",
+    "pages/sa/sa",
+    "pages/math/math",
+    "pages/engim/engin",
+    "pages/zxs-c/zxs-c",
+    "pages/allknow/allknow",
+    "pages/zys/zys",
+    "pages/my/my",
+    "pages/mks/mks",
+    "pages/zxs/zxs",
+    "pages/oth/oth",
+    "pages/wxlogin/wxlogin",
+    "pages/fanyi/fanyi",
+    "pages/english/english",
+    "pages/jidian/jidian",
+    "pages/erweima/erweima",
+    "pages/xhapi/xhapi",
+    "pages/webxcx/webxcx",
+    "pages/about/about",
+    "pages/yls/yls",
+    "pages/gjs/gjs",
+   
+    "pages/cyzs/cyzs",
+    "pages/jyfx/jyfx"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#FFD700",
+    "navigationBarBackgroundColor": "#ff7f00",
     "navigationBarTitleText": "飙尘小屋",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "selectedColor": "#989",
-    "backgroundColor": "#272728",
-    "backgroundTextStyle": "dark",
-    "color": "#fff",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "",
+    "color": "#000",
     "list": [
       {
-        "pagePath": "pages/second/second",
-        "text": "发布"
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "/image/xhlbcb.png",
+        "selectedColor": "#FFFF00",
+        "selectedIconPath": "/image/xhlbcy.png"
       },
       {
-        "pagePath": "pages/third/third",
-        "text": "个人中心"
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "/image/rentou.png",
+        "selectedColor": "#FFFF00",
+        "selectedIconPath": "/image/rentouy.png"
       }
     ]
   },

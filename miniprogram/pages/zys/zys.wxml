@@ -1,0 +1,62 @@
+<view class="tss">
+<view class="tss"><navigator  bindtap="toggleDialog" url="">我要分享</navigator></view>
+<view class="tss"><navigator bindtap="toggleDia"  url="">相关声明</navigator></view>
+</view>
+<hr class="hr"></hr>
+<!--miniprogram/pages/zys/zys.wxml-->
+<view wx:for="{{zys}}" class="linkall">
+<view class="shaer">
+<view class="aa"> <image class="tx" src="{{item.tx}}"></image></view>
+<view class="aa"><text id="name" selectable="true">{{item.id}}
+<text id="time">{{item.time}}</text></text></view>
+</view>
+<view class="tex">
+<view class="link"><text selectable="false">
+<text id="ts">
+分享资源:</text>
+{{item.neirong}}</text></view>
+<view class="link"><text  selectable="true">
+  <text id="ts">
+  资源连接(长按复制):  </text>
+{{item.link}}
+</text>
+</view>
+<text id="ts">
+获取方式：</text>
+<view class="link"><text selectable="true">{{item.how}}
+</text></view>
+</view>
+</view>
+
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+  <!-- 如果想点击弹窗外不隐藏，取消bindtap点击事件即可 -->
+  <view class="zan-dialog__mask" bindtap="toggleDialog" />
+  <view class="zan-dialog__container">
+    <view style='padding:100rpx;'>
+    <view>
+    {{data}}
+    </view>
+    </view>
+  </view>
+</view>
+
+
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+  <!-- 如果想点击弹窗外不隐藏，取消bindtap点击事件即可 -->
+  <view class="zan-dialog__mask" bindtap="toggleDia" />
+  <view class="zan-dialog__container">
+    <view style='padding:100rpx;'>
+    <view>{{data}}</view>
+    </view>
+  </view>
+</view>
+
+
+

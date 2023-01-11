@@ -1,38 +1,38 @@
-
 <!--pages/frist/frist.wxml-->
+
 <view class="container"> 
   <image class="tx" src="{{about[0].picture}}"></image>
   <view class="bigview">
   <div class="div"><view class="a">关于飙尘小屋</view>  
     <view class="a2"><text id="a1">
         {{about[0].xwjs}}
+
     </text>
     </view>
     </div>
-      <div class="div"><view class="a">关于作者</view>
-    <view class="a2">  <text id="a1">
-        {{about[0].gybczz}}
-      </text>
+
+    <div class="div"><view class="a">相关声明</view>  
+    <view class="a2"><text id="a1">
+        {{about[0].xgsm}}
+    
+    </text>
     </view>
     </div>
-      <div class="div"> <view class="a">联系作者</view>
-        <view class="a2">  <text id="a1">
-      <text id="t1">B站账号：</text>
-      {{about[0].gybcbz}}
-
-      <text id="t1">个人邮箱：</text>
-       {{about[0].gybcemail}}
-
-       <text id="t1">QQ粉丝群：</text>
-        {{about[0].gybcqq}} 
-        </text>
-      </view>
-      </div>
 
       <div class="div"><view class="a">用户数量</view>
       <view class="a2"> <text id="a1">
-        飙尘小屋已有：<text id="zz1">{{about[0].number}}</text>  位小伙伴"入住"啦~
+   {{about[0].gyrsms}}<text id="zz1">{{about[0].number}}</text> {{about[0].gyrsms2}}
+
+       {{about[0].gygzhms}}<text id="zz1">{{about[0].numbergzh}}</text> {{about[0].gyrsms2}}
+        <text id="t1">
+
+          </text>
+
+        <text selectable="true"> 
+        {{about[0].gybcqq}} 
+        </text> 
         </text>
+ 
        </view>
       </div>
     
@@ -43,18 +43,12 @@
                 {{about[0].bbnumber}} 
 
                 <text id="t1">更新日期：</text>
-                 {{year}} - {{month}} - {{day}} 
+                {{about[0].date}} 
         </text>
        </view>
       </div>
 
-      <div class="div"><view class="a">相关声明</view>  
-    <view class="a2"><text id="a1">
-        {{about[0].xgsm}}
-    
-    </text>
-    </view>
-    </div>
+  
   </view>
   </view>
 

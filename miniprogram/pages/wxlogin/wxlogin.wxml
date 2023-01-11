@@ -1,0 +1,15 @@
+<view class="pricture">
+<image src='/image/bcxw.png'></image>
+</view>
+<hr class="hr"></hr>
+<view class="buall">
+<view class="bu">
+<button class="loginbtn" bindtap="hq">
+授权登录</button>
+</view>
+<view class="bu">
+<button class="loginbtn" bindtap="qx" >
+暂不授权</button>
+</view>
+</view>
+

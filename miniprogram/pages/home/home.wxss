@@ -1,0 +1,36 @@
+page{
+  background-color: #ecf1f0;
+}
+.pricture{
+  width :300rpx;
+  height: 200rpx;
+   margin:30rpx;
+  border-radius: 50rpx;
+  float: left;
+}
+.pview{
+margin-left:10rpx;
+margin-right:10rpx;
+}
+
+.slide-image {
+  width:100%;
+
+ }
+ .lbt{
+   margin-top: 20rpx;
+   margin-bottom: 10rpx;
+  width:90%;
+  margin-left:5%;
+  height: 450rpx;
+  border-radius: 60rpx;
+ }
+ .hr{
+  border:0.5rpx solid gray;
+  width: 80%;
+  margin-left: 10%;
+  background-color: black;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  opacity: 0.3;
+}

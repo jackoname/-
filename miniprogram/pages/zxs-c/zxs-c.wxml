@@ -1,0 +1,318 @@
+<view class="banner">
+  <scroll-view scroll-x="true" scroll-with-animation="true" scroll-into-view="nav-{{select > 0 ? select -1 : select}}" >
+    <view wx:for="{{sortList}}" wx:for-index="index" wx:key="index" id="nav-{{index}}"
+      class="sort {{index == select ? 'choose' : ''}}" data-index='{{index}}' bindtap="activeTab">
+      {{item.text}}
+      <view class="line" wx:if="{{index == select}}"></view>
+    </view>
+  </scroll-view>
+</view>
+<swiper style="height:{{height}}rpx" current="{{select}}" duration="300" bindchange="activeSw">
+  <swiper-item>
+      <view  wx:for="{{c}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+
+
+  </swiper-item>
+
+<!--java-->
+<swiper-item>
+  <view  wx:for="{{java}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+
+  <view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+
+<!--web-->
+<swiper-item>
+  <view  wx:for="{{web}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+<!--css-->
+<swiper-item>
+  <view  wx:for="{{css}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+
+<!--python-->
+<swiper-item>
+  <view  wx:for="{{python}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+
+<!--Kotlin-->
+<swiper-item>
+  <view  wx:for="{{kotlin}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+<!--小程序-->
+<swiper-item>
+  <view  wx:for="{{xcx}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+<!--数据库-->
+<swiper-item>
+  <view  wx:for="{{sjk}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+<!--数据结构-->
+<swiper-item>
+  <view  wx:for="{{sjjgysf}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+<!--计组-->
+<swiper-item>
+  <view  wx:for="{{jz}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+<!--信息安全-->
+<swiper-item>
+  <view  wx:for="{{xxaq}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+<!--计算机等级考试-->
+<swiper-item>
+  <view  wx:for="{{jsjdjks}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>
+<!--其它-->
+<swiper-item>
+  <view  wx:for="{{rjqt}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+</swiper-item>  
+
+</swiper>

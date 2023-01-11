@@ -9,9 +9,7 @@ page{
 
   box-sizing: border-box; 
  }
- .bigview{
 
- }
  .a{
    background-color: #20bf6b;
    height: 15%;
@@ -23,20 +21,20 @@ page{
  }
  #a1{
   font-weight: bolder;
-  text-align: center;
+  line-height: 30rpx;
   font-size: 28rpx;
   background-color:white;
+  left: 20rpx;
+
  }
  .a2{
    margin: 20rpx;
    background-color: white;
  }
  .tx{
-   width: 90rpx;
-   height: 90rpx;
-   border-radius: 100%;
-   margin: 15rpx;
-   border:0.3rpx solid black
+  width: 92%;
+  height:400rpx;
+  margin:40rpx;
   }
 .div{
   width:350rpx;
@@ -46,6 +44,7 @@ page{
   border: 12rpx solid#ecf0f1;
   border-radius: 32rpx;
 }
+
 #zz1{
   color:red;
   font-size: 35rpx;

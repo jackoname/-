@@ -1,0 +1,27 @@
+<!--miniprogram/pages/jidian/jidian.wxml-->
+<view class="title" >绩点计算器</view>
+<view class="out">
+<view class="big">
+<view class="ts"><text id="ts">第{{i}}门课</text></view>
+<input type="digit" placeholder="请输入成绩"  bindinput="chengji" value="{{qingkong}}" class="te"/>
+<input type="digit" placeholder="请输入学分" bindinput="jidian" value="{{qingkong}}" class="te" />
+<buttou class="bu" bindtap="next">添加</buttou>
+<buttou class="bu" bindtap="rest">重置</buttou>
+</view>
+<buttou class="bus" bindtap="resall">重置全部</buttou> 
+<buttou class="bus" bindtap="submit">提交</buttou>
+</view>
+<view class="{{css}}" style="width: 594rpx; height: 561rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+  <view class="tss"><text id="ts" >{{kc1}}{{ii}}{{kc2}}</text></view>
+<view class="pjjd">{{pjjd}}</view>
+<view class="jd">{{result}}</view>
+<view class="xfjd">
+<view class="zxf">{{zxf}}{{sums}} </view>
+<view class="zxf">{{zjd}}{{aves}}</view>
+<image  class="bq" src="{{pricture}}" style="position: absolute; left: 104rpx; top: 1002rpx"></image>
+
+</view>
+<view class="pj">{{pingjia}}</view>
+<image  class="hz" src="{{hz}}" style="position: absolute; left: 468rpx; top: 1016rpx"></image>
+</view>
+<view class="sss"><navigator class="sss" bindtap="reload" >重新计算</navigator></view>

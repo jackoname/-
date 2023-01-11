@@ -1,0 +1,13 @@
+<view class="title">英汉互译</view>
+<view class="all" style="width: 716rpx; height: 217rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"><input style="width: 397rpx; height: 99rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" bindinput="input" type="text"  class="srk"  bindinput="input" placeholder="  请输入英文单词/中文词语  " />
+<button class="bu" bindtap="sub" style="width: 181rpx; height: 71rpx; display: block; box-sizing: border-box; left: 215rpx; top: -149rpx; position: relative">搜索</button>
+</view>
+<view class="big">
+<view wx:for="{{words.message}}" >
+<view class="zi">
+<text id="xuhao">{{index+1+"."}}</text>
+<text id="danci">{{item.key}}</text>
+<view class="aa"><text id="ys"> {{item.paraphrase}}</text></view>
+</view>
+</view>
+</view>

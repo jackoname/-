@@ -1,0 +1,30 @@
+/* pages/wxlogin/wxlogin.wxss */
+page{
+  background-color:#ecf1f0;
+}
+.bu{
+  margin:10%;
+  width:80%;
+}
+.loginbtn{
+  background-color:#FFD700;
+  border-radius: 50rpx;
+  width:100%;
+  margin-left:10%;
+  font-weight: bolder;
+  border:2rpx solid gray;
+}
+
+.pricture{
+  width:80%;
+  margin-left: 10%;
+  margin-top:30%;
+  margin-bottom: 100rpx;
+}
+.hr{
+  border:0.5rpx solid gray;
+  width: 80%;
+  margin-left: 10%;
+  background-color: black;
+  opacity: 0.3;
+}

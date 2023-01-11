@@ -1,0 +1,132 @@
+/* miniprogram/pages/zys/zys.wxss */
+page{
+  background-color: #ecf0f1;
+}
+.linkall{
+  border:1rpx solid black;
+  width:92%;
+  margin-left: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #fff;
+  border-radius: 30rpx;
+  background: 
+  radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
+  radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0,
+  radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px,
+  radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px,
+  radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px,
+  radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
+  linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
+  background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
+  background-color: #840b2944;
+}
+.tex{
+  color: white;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-weight: bolder;
+  font-size: 25rpx;
+}
+#ts{
+  text-align: center;
+  color: rgb(255, 11, 11);
+  font-size: 25rpx;
+}
+.shaer{
+ width: 100%;
+
+ margin-top:3%; 
+ height:80rpx;
+}
+.tx{
+  width: 75rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  margin-left: 2%;
+  border: 5rpx solid white;
+}
+#time{
+  color:white;
+  font-size: 22rpx;
+}
+#name{
+  color: white;
+  font-size: 30rpx;
+}
+.aa{
+  float: left;
+  margin-left:5%;
+  margin-top: 2%;
+}
+.ziti{
+  color:gray;
+  text-align: center;
+  margin-top: 60rpx;
+}
+.hr{
+  border:0.5rpx solid gray;
+  width: 80%;
+  margin-left: 10%;
+  background-color: black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  opacity: 0.3;
+}
+.tss{
+  float: left;
+  margin-top: 20rpx;
+  width: auto;
+  height: auto;
+}
+.tss{
+  margin-left:108rpx;
+  color:blue;
+
+}
+.bu{
+  margin:5%;
+  height: 80rpx;
+ opacity: 0.8;
+border-radius: 300rpx;
+border:1px solid #3079ed;  
+width:100px;  
+height:28px;  
+background:linear-gradient(to bottom, #9bcfff,#4683ea); 
+}
+.sx{
+  width: 45rpx;
+  height: 45rpx;
+}
+.zan-dialog__mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0);   /*设置阴影半透明背景如： background: rgba(0, 0, 0, 0.4);*/
+  display: none;
+}
+
+.zan-dialog__container {
+  position: fixed;
+  top:152rpx;
+  width: 650rpx;    /*弹窗布局宽*/
+  height: 520rpx;   /*弹窗布局高，与下面弹出距离transform有关*/
+  margin-left: 50rpx;
+  background: #f8f8f8;
+  transform: translateY(3000%);  /*弹框弹出距离，与弹框布局高度有关，如300%表示弹起距离为3倍弹窗高度 */
+  transition: all 0.4s ease;
+  z-index: 12;
+  border-radius: 20rpx;
+  box-shadow: 0px 3px 3px 2px gainsboro;  /*弹框的悬浮阴影效果，如不需要可注释该行*/
+}
+
+.zan-dialog--show .zan-dialog__container {
+  transform: translateY(0);
+}
+
+.zan-dialog--show .zan-dialog__mask {
+  display: block;
+}

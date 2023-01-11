@@ -1,0 +1,25 @@
+
+page{
+  background-color: #ecf0f1;
+}
+.all{
+  text-align: center;
+  float: left;
+  margin-left: 5%;
+  margin: 5%;
+}
+.pr{
+  width: 170rpx;
+  height: 170rpx;
+  border-radius: 50rpx;
+  border:50rpx solid blackl;
+}
+.hr{
+  border:0.5rpx solid gray;
+  width: 90%;
+  margin-left: 5%;
+  background-color: black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  opacity: 0.5;
+}

@@ -1,0 +1,58 @@
+page{
+  background-color: #ecf1f0;
+}
+.css{
+
+  background: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 100%);
+  margin:0 auto;
+  margin-top:5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border:1rpx solid black;
+  border-radius: 50rpx;
+}
+.zi{
+  margin-top: 2%;
+  margin-bottom:7%;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+#zi{
+  color:rgb(20, 35, 122);
+  font: bolder;
+  font-size: 35rpx;
+  text-align: left;
+  color: rgb(1, 4, 7);
+}
+.bu{
+  margin-top:50rpx;
+  margin-bottom:50rpx;
+  opacity: .7;
+}
+#bu{
+  background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+  border:1rpx solid rgb(48, 13, 13);
+  border-radius: 35rpx;
+ color: blueviolet;
+}
+.title{
+
+  background: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 80rpx;
+  border:1rpx solid black;
+  border-radius: 35rpx;
+  color: rgb(241, 236, 236);
+ 
+  font-size: 60rpx;
+}
+
+.tp{
+  width: 250rpx;
+  height: 250rpx;
+  margin-left:35%;
+  margin-bottom: 2rpx;
+  margin-top: 2rpx;
+}

@@ -1,0 +1,48 @@
+<view class="show">
+ <view class="title">心灵鸡汤</view>
+<view class="bg"><text id="zw" selectable="true">{{data}}  
+</text></view>
+<view><button class="bu" bindtap="next" style="width: 132rpx; height: 62rpx; display: block; box-sizing: border-box; left: 2rpx; top: 8rpx; position: relative">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+</view>
+<hr class="hr"></hr>
+<view class="all5">
+<navigator url="../../pages/zxs-c/zxs-c">
+<view class="=all">
+<image  class="pr" src="/image/com.jpg"></image>
+<view>软件编程</view>
+</view>
+</navigator>
+
+
+<navigator url="../../pages/engim/engin">
+<view class="=all">
+<image  class="pr" src="/image/eng.jpg"></image>
+<view>英语学习</view>
+</view>
+</navigator>
+
+<navigator url="../../pages/math/math">
+<view class="=all">
+<image  class="pr" src="/image/math.jpg"></image>
+<view>数学学习</view>
+</view>
+</navigator>
+
+<navigator url="../../pages/mks/mks">
+<view class="=all">
+<image  class="pr" src="/image/mks.jpg"></image>
+<view>政治学习</view>
+</view>
+</navigator>
+
+<navigator url="../../pages/oth/oth">
+<view class="=all">
+<image  class="pr" src="/image/oth.jpg"></image>
+<view>其他学习</view>
+
+</view>
+</navigator>
+</view>

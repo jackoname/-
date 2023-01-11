@@ -1,0 +1,15 @@
+<view class="title">英汉句子互译</view>
+<textarea class="text" bindinput="area" placeholder=" 请输入中文/英文句子"></textarea>
+<button class="bu" bindtap="sub"  style="width: 208rpx; height: 77rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">提交</button>
+<view class="{{show}}">
+<view  class="zi">
+<view class="zz"><text selectable="true">{{fynr.text}}</text></view>
+</view>
+<view class="zi">
+  <view class="zz1"><text selectable="true">{{fynr.fanyi}}</text></view>
+
+</view>
+</view>
+
+
+

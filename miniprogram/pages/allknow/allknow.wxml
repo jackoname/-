@@ -1,0 +1,21 @@
+<view class="note">公告</view>
+<hr class="hr"></hr>
+<view wx:for="{{all}}" class="linkall">
+<view class="shaer">
+<view class="aa"> <image class="tx" src="{{item.tx}}"></image></view>
+<view class="aa"><text id="name" selectable="true">{{item.name}}
+<text id="time">{{item.time}}</text></text></view>
+</view>
+<view class="tex">
+<view class="link"><text selectable="false">
+<text id="ts">
+公告:</text>
+{{item.allknows}}</text></view>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>

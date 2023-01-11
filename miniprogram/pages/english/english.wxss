@@ -1,0 +1,82 @@
+/* pages/english/english.wxss */
+page{
+  background-color: #ecf1f0;
+}
+.srk{
+  width:60%;
+  margin:9%;
+  height:80rpx;
+  border:1rpx solid black;
+  border-radius:30rpx;
+  text-align: center;
+  background-color: #fff;
+}
+.fdj{
+  width:30rpx;
+  height:30rpx;
+}
+.bu{
+  background-image: linear-gradient(-90deg, #2430d6 0%, #115dcf 100%);
+ border:1rpx solid rgb(48, 13, 13);
+  font-size: 25rpx;
+  font-weight: bold;
+  border-radius: 35rpx;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: bolder;
+  color:wheat;
+}
+.all{
+  
+  border: 1rpx solid black;
+  margin:2%;
+  margin-top:0%;
+  background:linear-gradient(#243949,#517fa4);
+  border-radius: 20rpx;
+  opacity: 0.7;
+}
+.big{
+  text-align: left;
+  line-height: 52.0rpx;
+  border:1rpx solid black;
+  border-radius: 30rpx;
+  width:90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top:2%;
+  margin-bottom: 2%;
+  background:linear-gradient(#243949,#517fa4);
+  opacity: 0.7;
+}
+.title{
+  text-align: center;
+  margin: 5%;
+  font-size: 100rpx;
+  line-height: 150rpx;
+  font-weight: bold;
+  color: rgb(214, 213, 214)/*FF*/;
+  text-shadow: 0 0 1px currentColor, 2px 0 1px #083058, 0 2px 1px #04192e, 2px 1px 1px #083058, 1px 2px 1px #98c0e8, 2px 2px 1px #487098, 3px 1px 1px #083058, 1px 3px 1px #98c0e8, 3px 2px 1px #083058, 2px 3px 1px #98c0e8, 3px 3px 1px #487098, 4px 2px 1px #083058, 2px 4px 1px #98c0e8, 4px 3px 1px #083058, 3px 4px 1px #98c0e8, 4px 4px 1px #487098, 5px 3px 1px #083058, 3px 5px 1px #98c0e8, 5px 4px 1px #083058, 4px 5px 1px #98c0e8, 5px 5px 1px #487098, 6px 4px 1px #083058, 4px 6px 1px #98c0e8, 6px 5px 1px #083058, 5px 6px 1px #98c0e8, 6px 6px 1px #487098, 7px 5px 1px #083058, 5px 7px 1px #98c0e8, 7px 6px 1px #083058, 6px 7px 1px #98c0e8, 7px 7px 1px #487098, 8px 6px 1px #083058, 6px 8px 1px #98c0e8, 8px 7px 1px #083058, 7px 8px 1px #98c0e8, 8px 8px 1px #487098, 9px 7px 1px #083058, 7px 9px 1px #98c0e8, 9px 8px 1px #083058, 8px 9px 1px #98c0e8, 9px 9px 1px #487098, 10px 8px 1px #083058, 8px 10px 1px #98c0e8, 10px 9px 1px #083058, 9px 10px 1px #98c0e8, 10px 10px 1px #487098, 11px 9px 1px #083058, 9px 11px 1px #98c0e8, 11px 10px 1px #083058, 10px 11px 1px #98c0e8, 11px 11px 1px #487098, 11px 11px 1px #666, 11px 12px 1px #666, 10px 12px 1px #666, 9px 12px 1px #666, 8px 11px 1px #666, 7px 10px 1px #666, 6px 9px 1px #666, 5px 8px 1px #666, 4px 7px 1px #666, 3px 6px 1px #666, 2px 5px 1px #666, 1px 4px 1px #666, 0 3px 1px #666, -1px 2px 1px #666, 20px 8px 8px rgba(0,0,0,.7);
+}
+.zi{
+  margin:3%;
+  background-color: #fff;
+  border:1rpx solid black;
+  border-radius: 20rpx;
+}
+#xuhao{
+  font-weight: bolder;
+  margin:2%
+}
+#danci{
+  color:blue;
+  font-weight: bolder;
+  margin:2%
+;font-size: 33rpx;
+}
+#ys{
+  font-size: 28rpx;
+  text-align: center;
+}
+.aa{
+  margin-left:10rpx;
+}

@@ -1,0 +1,110 @@
+/* pages/allknow/allknow.wxss *//* miniprogram/pages/zys/zys.wxss */
+page{
+  background-color: #ecf0f1;
+}
+.linkall{
+  border:1rpx solid black;
+  width:92%;
+  margin-left: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #fff;
+  border-radius: 30rpx;
+text-align: center;
+background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+.tex{
+  color: white;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-weight: bolder;
+  font-size: 28rpx;
+}
+#ts{
+  text-align: center;
+  color: yellow;
+  font-size: 35rpx;
+  text-align: center;
+}
+.shaer{
+ width: 100%;
+
+ margin-top:3%; 
+ height:80rpx;
+}
+.tx{
+  width: 75rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  margin-left: 2%;
+  border: 5rpx solid white;
+  text-align: center;
+  margin-left:190rpx;
+}
+#time{
+  color:white;
+  font-size: 22rpx;
+}
+#name{
+  color: white;
+  font-size: 30rpx;
+}
+.aa{
+  float: left;
+  margin-left:5%;
+  margin-top: 2%;
+}
+.hr{
+  border:0.5rpx solid gray;
+  width: 80%;
+  margin-left: 10%;
+  background-color: black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  opacity: 0.3;
+}
+.tss{
+  float: left;
+  margin-top: 20rpx;
+  width: auto;
+  height: auto;
+}
+.tss{
+  margin-left:108rpx;
+  color:blue;
+
+}
+.note{
+text-align: center;
+font-weight: bolder;
+font-size: 38rpx;
+margin-top: 3%;
+color:gray;
+}
+
+.bu{
+  margin:5%;
+  height: 80rpx;
+ opacity: 0.8;
+border-radius: 300rpx;
+border:1px solid #3079ed;  
+width:100px;  
+height:28px;  
+background:linear-gradient(to bottom, #9bcfff,#4683ea); 
+}
+.sx{
+  width: 45rpx;
+  height: 45rpx;
+}
+.ziti{
+  color:gray;
+  text-align: center;
+  margin-top: 60rpx;
+}

@@ -1,0 +1,16 @@
+<hr class="hr"></hr>
+<view>
+<navigator url="../../pages/jidian/jidian">
+<view class="=all">
+<image  class="pr" src="/image/jd.jpg"></image>
+<view>绩点计算器</view>
+</view>
+</navigator>
+
+<navigator url="../../pages/erweima/erweima">
+<view class="=all">
+<image  class="pr" src="/image/ewm.jpg"></image>
+<view>二维码生成</view>
+</view>
+</navigator>
+</view>

@@ -1,0 +1,30 @@
+<view class="all">
+  <view class="pricture">
+  <image class="tx" wx:if="{{sign}}" src="{{info.avatarUrl}}"  ></image>
+  <image class="tx" wx:else src="/image/bc.jpg"  ></image>
+  </view>
+    <view class="az"  wx:if="{{sign}}">
+    <view class="mzi">{{info.nickName}}</view> 
+    <view wx:if="{{sf}}" class="sf" style="position: fixed; left: 529rpx; top: 48rpx; width: 160rpx; height: 77rpx; display: block; box-sizing: border-box">普通用户</view>
+    <view wx:else class="sf1" style="position: fixed; left: 529rpx; top: 48rpx; width: 160rpx; height: 77rpx; display: block; box-sizing: border-box"><navigator url="../../pages/sa/sa">管理员</navigator></view>
+    <view class="mzi2"  style="width: 141rpx; height: 55rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"> <image class="dz" src="/image/{{info.gender}}.png"  ></image> <text id="name"></text> </view>
+    <view class="mzi1"  style="width: 221rpx; height: 81rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"> <image class="dz" src="/image/dz.png"  ></image> <text id="name1">  {{info.country}}.{{info.province}}</text> </view>    
+</view  >
+<view class="az1"  wx:else>
+<view class="log">  <button class="bu1" bindtap="login">授权登录</button> </view> 
+</view>
+</view>
+<hr class="hr"></hr>
+<view class="mune1">
+<view class="buall"> <navigator url="../../pages/allknow/allknow" class="bu" style="width: 647rpx; height: 99rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+<image class="about" src="/image/lb.png"></image>  公告  <image class="jt1" src="/image/jt.png"></image> </navigator></view>
+</view>
+
+
+
+
+<view class="mune">
+<view class="buall"> <navigator url="../../pages/about/about" class="bu" style="width: 647rpx; height: 99rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+<image class="about" src="/image/ab.png"></image>  关于 <image class="jt1" src="/image/jt.png"></image>
+ </navigator></view>
+</view>

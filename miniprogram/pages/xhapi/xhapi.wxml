@@ -1,0 +1,16 @@
+<!--miniprogram/pages/xhapi/xhapi.wxml-->
+<image class="tp" src="/image/xiao.png"></image>
+<view class="title">
+ 飙尘笑话屋
+</view>
+
+  <view class="css">
+  <view class="zi">
+  <text id="zi">  
+    {{date}}
+  </text>
+  </view>
+</view>
+<view class="bu">
+<button id="bu" bindtap="next">换一个</button>
+</view>

@@ -1,0 +1,42 @@
+<!--miniprogram/pages/sa/sa.wxml-->
+<view class="title">管理员</view>
+<view class='select_box'>
+<view class='select' catchtap='selectTap'>
+ <text class='select_text'>{{selectData[index]}}</text>
+ <image class='select_img {{show&&"select_img_rotate"}}' src='/image/Arrow.png'></image>   
+</view>
+<view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+ <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+</view>
+</view>
+<view class="choi">
+<view>增加</view>
+<input type="text" placeholder="封面（url地址）：" class="a1" bindinput="addimg" />
+<input type="text" placeholder="标题：" class="a1"  bindinput="addbt" />
+<input type="text"  placeholder="作者：" class="a1" bindinput="addzz" />
+<input type="text"  placeholder="发布日期：" class="a1"  bindinput="addrq" />
+<input type="text"  placeholder="url(文章地址)：" class="a1"  bindinput="addurl" />
+<button type="primary" bindtap="add" >确定</button>
+-----------------------------------------------------
+</view>
+-----------------资源室-----------------------------
+
+
+<input type="text" placeholder="头像（url地址）：" class="a1" bindinput="zystx" />
+<input type="text" placeholder="发布id" class="a1"  bindinput="zysfbid" />
+<input type="text"  placeholder="发布日期：" class="a1"  bindinput="zysfbrq" />
+<input type="text"  placeholder="发布内容" class="a1"  bindinput="zysfbnr" />
+<input type="text"  placeholder="资源链接" class="a1"  bindinput="zysfblj" />
+<input type="text"  placeholder="获取方式" class="a1"  bindinput="zyshqfs" />
+<button type="primary" bindtap="zysadd" >确定</button>
+
+
+
+-----------------发布公告---------------------------
+
+<input type="text" placeholder="头像（url地址）：" class="a1" bindinput="ggtx" />
+<input type="text" placeholder="发布id" class="a1"  bindinput="ggfbid" />
+<input type="text"  placeholder="发布日期：" class="a1"  bindinput="ggfbrq" />
+<input type="text"  placeholder="公告内容" class="a1"  bindinput="ggfbnr" />
+
+<button type="primary" bindtap="ggadd" >确定</button>

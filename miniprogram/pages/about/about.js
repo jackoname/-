@@ -9,9 +9,6 @@ Page({
 
   data: {
     about:[],
-    year:new Date().getFullYear(),
-    month:new Date().getMonth(),
-    day:new Date().getDay(),
   },
   onLoad: function () {    
        obj.get({     
@@ -19,9 +16,7 @@ Page({
     console.log(res.data), 
   this.setData(
     {about: res.data},
-    {year:res.data[0].date},
-    {month:res.data[0].date},
-    {day:res.data[0].date},
+
     )
 }    
   }) 

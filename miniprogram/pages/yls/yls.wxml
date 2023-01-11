@@ -1,0 +1,37 @@
+<!--pages/yls.wxml-->
+<hr class="hr"></hr>
+
+
+
+
+
+
+
+<view>
+  <navigator url="../../pages/xhapi/xhapi">
+<view class="=all">
+<image  class="pr" src="/image/xh.jpg"></image>
+<view>来个笑话</view>
+</view>
+</navigator>
+
+<navigator url="../../pages/qsfx/qsfx">
+<view class="=all">
+<image  class="pr" src="/image/qsfx.jpg"></image>
+<view>趣事分享</view>
+</view>
+</navigator>
+<navigator url="../../pages/jyfx/jyfx">
+<view class="=all">
+<image  class="pr" src="/image/jyfx.jpg"></image>
+<view>经验分享</view>
+</view>
+</navigator>
+
+<navigator url="../../pages/cyzs/cyzs">
+<view class="=all">
+<image  class="pr" src="/image/cyzs.jpg"></image>
+<view>才艺展示</view>
+</view>
+</navigator>
+</view>

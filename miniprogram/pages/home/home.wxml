@@ -1,0 +1,28 @@
+<swiper class="lbt" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{activeColor}}" >
+ <block wx:for="{{imgUrls}}">
+ <swiper-item>
+ <navigator url="../../pages/webxcx/webxcx?url={{item.link}}" hover-class="navigator-hover">
+ <image  src="{{item.url}}" class="slide-image" width="400" height="20" />
+ </navigator>
+ </swiper-item>
+ </block>
+</swiper>
+<hr class="hr"></hr>
+<view class="pview">
+<navigator url="../../pages/zxs/zxs">
+<image class="pricture" src="/image/zxs.png"></image>
+ </navigator>
+
+ <navigator url="../../pages/zys/zys">
+<image class="pricture" src="/image/zys.png"></image>
+ </navigator>
+
+ <navigator url="../../pages/gjs/gjs">
+<image class="pricture" src="/image/gjs.jpg"></image>
+ </navigator>
+
+ <navigator url="../../pages/yls/yls">
+<image class="pricture" src="/image/yls.png"></image>
+ </navigator>
+
+</view>

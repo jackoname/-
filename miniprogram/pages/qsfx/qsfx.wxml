@@ -1,0 +1,21 @@
+<view  wx:for="{{qsfx}}" wx:key='item' >
+      <view class="all">
+  <navigator  url="../../pages/webxcx/webxcx?url={{item.url}}">
+  <view class="pircture"><image  class="pircture" src="{{item.fengmian}}}"></image></view>
+  <view    class="title" >
+ {{item.title}}
+  <view class="author">
+    <view class="di"> 作者：{{item.author}}</view>
+<view class="di"> 日期：{{item.date}}</view>
+  </view>
+  </view>
+ </navigator>
+</view>
+</view>
+<view wx:if="{{sxts}}">
+<button  class="bu" bindtap="more"   style="width: 244rpx; height: 79rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+<image src="/image/sx.png" class="sx"></image>
+</button>
+</view>
+<view class="ziti"  wx:else>已无更多内容了~~</view>
+ 
